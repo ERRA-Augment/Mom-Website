@@ -1,0 +1,9 @@
+h1 {
+    color: green;
+    margin: 2px;
+    text-align: center;
+}
+
+.main-logo{
+    align-items: stretch;
+}
