@@ -295,11 +295,7 @@ h6{
 }
 
 .mySlides{
-  max-width: 950px;
-  max-height: 500px;
-  position: relative;
-  left: 32%;
-  right: 30%;
+  position: absolute;
 }
 
 .cursor{
