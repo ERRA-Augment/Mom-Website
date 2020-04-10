@@ -42,9 +42,10 @@ header{
 
 #buttons{
   display: inline-flex;
+  
   position: relative;
   bottom: 50px;
-  left: 5%;
+  left: 10%;
 }
 
 #logo{
@@ -72,7 +73,7 @@ header{
   font-style: normal;
   background-color: rgba(224, 221, 190, 0.5);
   color: rgb(243, 243, 243);
-  padding: 30px 60px 30px 60px;
+  padding: 40px 60px 30px 60px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
@@ -95,7 +96,7 @@ header{
   text-decoration: underline;
   background-color: rgba(224, 221, 190, 0.5);
   color: rgb(243, 243, 243);
-  padding: 30px 60px 30px 60px;
+  padding: 40px 60px 30px 60px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
@@ -117,7 +118,7 @@ header{
   font-style: normal;
   background-color: rgba(224, 221, 190, 0.5);
   color: rgb(243, 243, 243);
-  padding: 30px 60px 30px 60px;
+  padding: 40px 60px 30px 60px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
@@ -139,7 +140,7 @@ header{
   font-style: normal;
   background-color: rgba(224, 221, 190, 0.5);
   color: rgb(243, 243, 243);
-  padding: 30px 60px 30px 60px;
+  padding: 40px 60px 30px 60px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
@@ -153,6 +154,7 @@ header{
 }
 
 .facebook{
+  
   border-radius: 0% 20% 20% 0%;
   background-color: rgba(224, 221, 190, 0.5);
   color: #333333;
