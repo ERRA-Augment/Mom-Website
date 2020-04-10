@@ -45,9 +45,6 @@ header{
   position: relative;
   bottom: 50px;
   left: 5%;
-  max-width: 100%;
-  margin: auto;
-
 }
 
 #logo{
@@ -75,16 +72,13 @@ header{
   font-style: normal;
   background-color: rgba(224, 221, 190, 0.5);
   color: rgb(243, 243, 243);
-  padding: 80px 80px 20px 80px;
+  padding: 30px 60px 30px 60px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   text-shadow: 4px 4px 2px black, 4px 4px 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
   box-shadow: 4px 4px 2px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  max-width: 100%;
-  margin: 0px auto;
-  
 }
 
 .home:hover {
@@ -101,15 +95,13 @@ header{
   text-decoration: underline;
   background-color: rgba(224, 221, 190, 0.5);
   color: rgb(243, 243, 243);
-  padding: 80px 80px 20px 80px;
+  padding: 30px 60px 30px 60px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   text-shadow: 4px 4px 2px black, 4px 4px 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
   box-shadow: 4px 4px 2px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  max-width: 100%;
-  margin: 0px auto;
 }
 
 .gallery:hover{
@@ -125,15 +117,13 @@ header{
   font-style: normal;
   background-color: rgba(224, 221, 190, 0.5);
   color: rgb(243, 243, 243);
-  padding: 80px 80px 20px 80px;
+  padding: 30px 60px 30px 60px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   text-shadow: 4px 4px 2px black, 4px 4px 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
   box-shadow: 4px 4px 2px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  max-width: 100%;
-  margin: 0px auto;
 }
 
 .about:hover{
@@ -149,15 +139,13 @@ header{
   font-style: normal;
   background-color: rgba(224, 221, 190, 0.5);
   color: rgb(243, 243, 243);
-  padding: 80px 80px 10px 80px;
+  padding: 30px 60px 30px 60px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   text-shadow: 4px 4px 2px black, 4px 4px 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
   box-shadow: 4px 4px 2px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  max-width: 100%;
-  margin: 0px auto;
 }
 
 .contact-us:hover{
@@ -166,19 +154,15 @@ header{
 
 .facebook{
   border-radius: 0% 20% 20% 0%;
-  display: inline-flex;
-  position: relative;
   background-color: rgba(224, 221, 190, 0.5);
   color: #333333;
-  padding: 80px 100px 80px 100px;
+  padding: 30px 60px 30px 60px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   text-shadow: 4px 4px 2px black, 4px 4px 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
   box-shadow: 4px 4px 2px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  max-width: 100%;
-  margin: 0px auto;
 }
 
 .facebook:hover{
