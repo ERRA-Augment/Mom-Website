@@ -226,7 +226,7 @@ li{
   margin-left: 20%;
   margin-right: 20%;
   font-size: 35px;
-  text-shadow: 1px 1px .5px black, 4px 4px 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
+  text-shadow: 2px 2px 1px black, 4px 4px 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
 }
 
 h4{
