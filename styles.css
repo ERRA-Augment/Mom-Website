@@ -351,3 +351,71 @@ h6{
   }
 }
 
+@media only screen and (max-width:1400px){
+  #logo {
+    z-index: -3;
+    position: relative;
+    bottom: 100px;
+    width: 100%;
+    box-shadow: 0 0 0px 0px;
+  }
+ }
+
+ @media only screen and (max-width:800px) {
+   /* For tablets: */
+    .home, .gallery, .about, .contact-us, .facebook {
+     width: 80%;
+     padding: 0;
+     padding-top: 5px;
+     padding-right: 5px;
+     padding-left: 5px;
+     position: relative;
+     left: 80px;
+   }
+ 
+   #logo {
+     z-index: -3;
+     position: relative;
+     bottom: 100px;
+     width: 100%;
+     box-shadow: 0 0 0px 0px;
+   }
+ 
+   .facebook{
+     padding-right: 5px;
+     padding-bottom: 2px;
+   }
+ 
+   .home{
+     padding-left: 5px;
+     padding-bottom: 2px;
+   }
+ }
+ 
+ @media only screen and (max-width:500px) {
+   /* For mobile phones: */
+   .home, .gallery, .about, .contact-us, .facebook {
+     width: 80%;
+     padding: 0;
+     padding-top: 5px;
+     padding-right: 5px;
+     padding-left: 5px;
+     position: relative;
+     left: -50px;
+   }
+   #logo {
+     z-index: -3;
+     position: relative;
+     bottom: 100px;
+     width: 100%;
+     box-shadow: 0 0 0px 0px;
+   }
+   .facebook{
+     padding-right: 5px;
+     padding-bottom: 2px;
+   }
+   .home{
+     padding-left: 5px;
+     padding-bottom: 2px;
+   }
+ }
