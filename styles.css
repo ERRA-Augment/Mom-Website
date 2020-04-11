@@ -301,7 +301,7 @@ h6{
 
 .gallery-section .gallery{
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
