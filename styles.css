@@ -290,270 +290,16 @@ h6{
   background: rgba(224, 221, 190, 0.6);
 }
 
-.container{
-  max-width: 400px;
-  
-}
 
-#mySlides{
-  position: absolute;
-  max-width: 400px;
-}
-
-.cursor{
-  cursor: pointer;
-}
-
-.prev, .next{
-  cursor: pointer;
-  position: absolute;
-  top: 30%;
-  width: auto;
-  padding: 30px;
-  margin-left: 200px;
-  margin-right: 200px;
-  color: white;
-  font-weight: bold;
-  font-size: 100px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-  text-shadow: 2px 2px 1px black, 4px 4px 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  
-}
-
-.next{
-  position: absolute;
-  right: 0;
-  border-radius: 50% 50% 45% 45%;
-  background-color: rgb(224, 221, 190);
-  box-shadow: 4px 5px 5px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  
-}
-
-.prev{
-  position: absolute;
-  left: 0;
-  border-radius: 50% 50% 45% 45%;
-  background-color: rgb(224, 221, 190);
-  box-shadow: 4px 5px 4px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  
-}
-
-.prev:hover{
-  background-color: rgba(224, 221, 190);
-  box-shadow: 0 0 20px 3px rgba(153, 168, 173);
-}
-
-.next:hover{
-  background-color: rgba(224, 221, 190);
-  box-shadow: 0 0 20px 3px rgba(153, 168, 173);
-}
-
-@media only screen and (max-width:1600px) {
-  .home, .gallery, .about, .contact-us, .facebook, .prev, .next {
-    width: 80%;
-    padding: 0;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    position: relative;
-    left: 200px;
-  }
-
-  #logo {
-    z-index: -3;
-    position: relative;
-    bottom: 100px;
-    width: 100%;
-    box-shadow: 0 0 0px 0px;
-  }
-
-  .facebook{
-    padding-right: 5px;
-    padding-bottom: 2px;
-  }
-
-  .home{
-    padding-left: 5px;
-    padding-bottom: 2px;
-  }
-  .prev{
-    
-    position: relative;
-    left: -195;
-    bottom: 300;
-    border-radius: 50% 50% 45% 45%;
-    background-color: rgb(224, 221, 190);
-    box-shadow: 4px 5px 4px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  }
-
-  .next{
-    position: relative;
-    left: 750;
-    bottom: 300;
-    border-radius: 50% 50% 45% 45%;
-    background-color: rgb(224, 221, 190);
-    box-shadow: 4px 5px 4px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  }
-
-  .mySlides{
-    max-width: 400px;
-    max-height: 250px;
-    position: absolute;
-    left: 170;
-
-  }
-}
-@media only screen and (max-width:1400px){
- .next{
-    position: relative;
-    left: 460;
-    bottom: 300;
-    border-radius: 50% 50% 45% 45%;
-    background-color: rgb(224, 221, 190);
-    box-shadow: 4px 5px 4px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  }
-}
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-   .home, .gallery, .about, .contact-us, .facebook, .prev, .next {
-    width: 80%;
-    padding: 0;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    position: relative;
-    left: 80px;
-  }
-
-  #logo {
-    z-index: -3;
-    position: relative;
-    bottom: 100px;
-    width: 100%;
-    box-shadow: 0 0 0px 0px;
-  }
-
-  .facebook{
-    padding-right: 5px;
-    padding-bottom: 2px;
-  }
-
-  .home{
-    padding-left: 5px;
-    padding-bottom: 2px;
-  }
-
-  .prev{
-    
-    position: relative;
-    left: -195;
-    bottom: 300;
-    border-radius: 50% 50% 45% 45%;
-    background-color: rgb(224, 221, 190);
-    box-shadow: 4px 5px 4px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  }
-
-  .next{
-    position: relative;
-    left: 310;
-    bottom: 435;
-    border-radius: 50% 50% 45% 45%;
-    background-color: rgb(224, 221, 190);
-    box-shadow: 4px 5px 4px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  }
-
-  .mySlides{
-    max-width: 400px;
-    max-height: 150px;
-    position: relative;
-    left: 80;
-
-  }
-}
-
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .home, .gallery, .about, .contact-us, .facebook, .prev, .next {
-    width: 80%;
-    padding: 0;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    position: relative;
-    left: -50px;
-  }
-
-  #logo {
-    z-index: -3;
-    position: relative;
-    bottom: 100px;
-    width: 100%;
-    box-shadow: 0 0 0px 0px;
-  }
-
-  .facebook{
-    padding-right: 5px;
-    padding-bottom: 2px;
-  }
-
-  .home{
-    padding-left: 5px;
-    padding-bottom: 2px;
-  }
-
-  .prev{
-    
-    position: relative;
-    left: -195;
-    bottom: 300;
-    border-radius: 50% 50% 45% 45%;
-    background-color: rgb(224, 221, 190);
-    box-shadow: 4px 5px 4px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  }
-
-  .next{
-    position: relative;
-    left: 180;
-    bottom: 435;
-    border-radius: 50% 50% 45% 45%;
-    background-color: rgb(224, 221, 190);
-    box-shadow: 4px 5px 4px black, 0 0 25px rgb(153, 168, 173), 0 0 5px rgba(153, 168, 173, 0.8);
-  }
-
-  .mySlides{
-    max-width: 400px;
-    max-height: 150px;
-    position: relative;
-    left: 80;
- }}
-
- *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.gallery-section{
-  width: 100%;
-  padding: 60px 0;
-  background: #f1f1f1;
-}
 
 .inner-width{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
-.border{
-  width: 180px;
-  height: 4px;
-  background: #333;
-  margin: 60px auto;
-}
+
 
 .gallery-section .gallery{
   display: flex;
@@ -571,35 +317,27 @@ h6{
   width: 100%;
   height: 100%;
   transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
 }
 
 .gallery-section .image:hover img{
   transform: scale(1.4) rotate(15deg);
-  -webkit-transform: scale(1.4) rotate(15deg);
-  -moz-transform: scale(1.4) rotate(15deg);
-  -ms-transform: scale(1.4) rotate(15deg);
-  -o-transform: scale(1.4) rotate(15deg);
 }
 
 @media screen and (max-width:960px) {
   .gallery-section .image{
-      flex: 33.33%;
+    flex: 33.33%;
   }
 }
 
-
 @media screen and (max-width:768px) {
   .gallery-section .image{
-      flex: 50%;
+    flex: 50%;
   }
 }
 
 @media screen and (max-width:480px) {
   .gallery-section .image{
-      flex: 100%;
+    flex: 100%;
   }
 }
+
