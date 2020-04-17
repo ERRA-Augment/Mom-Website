@@ -1,2 +1,2 @@
 # MomWebsite
-Open website in LiveServer
+Open website in a LiveServer
