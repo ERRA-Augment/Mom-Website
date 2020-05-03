@@ -9,7 +9,6 @@ body {
     color: rgb(243, 243, 243);
     height: 100%;
     width: 100%;
-    zoom: 75%;
     transform: scale(1.1);
     transform-origin: 0 0;
 }
