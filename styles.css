@@ -9,6 +9,7 @@ body {
     color: rgb(243, 243, 243);
     height: 100%;
     width: 100%;
+    zoom: 75%;
 }
 
 body::before {
@@ -329,16 +330,6 @@ h6 {
 @media screen and (max-width:480px) {
     .gallery-section .image {
         flex: 100%;
-    }
-}
-
-@media only screen and (max-width:1400px) {
-    #logo {
-        z-index: -4;
-        position: relative;
-        bottom: 100px;
-        width: 100%;
-        box-shadow: 0 0 0px 0px;
     }
 }
 
